@@ -86,9 +86,17 @@ La aplicación implementa ocho servicios de AWS organizados en capas de ejecuci�
 
 ---
 
+## Guía de Evaluación Rápida (1 Minuto)
+
+1. **Lanzar el Escenario 1 (Evento Sísmico Andino):** Haz clic en `1. Giant Kiro Andean Quake` en el panel de comandos izquierdo. Giant Kiro emerge y sacude el planeta, cortando físicamente el corredor óptico del Pacífico cerca de Arica. Observa la transición del HUD superior por las Fases 1 a 5, la conmutación BGP Dijkstra por rutas atlánticas de respaldo (+126ms delta) y el despacho de un camión de reparación por Amazon Location Service evitando la zona de peligro.
+2. **Simular un Corte de Fibra Manual:** Haz clic en cualquier parte del globo 3D o sobre un cable para abrir el HUD de acción SRE. Selecciona `Cortar Fibra Conectada` para realizar un corte geométrico exacto sobre la línea. El sistema geocodifica la ubicación y despacha la unidad terrestre más cercana (o el buque cablero CS-Kiro si el corte es oceánico).
+3. **Trazar Ping de Paquetes BGP:** Cambia a la pestaña `Ping` en el panel izquierdo. Selecciona origen y destino (por ejemplo, Cochabamba a Ashburn, VA) para calcular la ruta más corta y ver los pulsos de paquetes en vivo.
+4. **Inspeccionar Telemetría de Iceberg en S3:** Abre la consola de telemetría derecha, cambia a la pestaña `Iceberg S3` y haz clic en `Ejecutar Consulta Espacial SQL (ST_Intersects)` para ver consultas lakehouse evaluadas a $0.00 USD.
+5. **Modo Portada Cinemático:** Pulsa la tecla `H` (o el botón `Cover Mode` superior) para ocultar toda la interfaz y ver la composición limpia de 1200x675 para capturas de marketing.
+
 ## Capacidades Técnicas
 
-- **Globo 3D Vectorial Procedural:** Desarrollado con la proyección de globo de MapLibre GL JS v6 y Three.js. Integra capas de elevación ráster DEM Terrarium desde AWS S3 para renderizar el relieve montañoso en 3D.
+- **Globo 3D Vectorial Procedural:** Desarrollado con la proyección de globo nativa de MapLibre GL JS v6 y una capa WebGL de Three.js, renderizando topografía táctica vectorial de alta resolución, fosas oceánicas y plataformas continentales a 60 FPS.
 - **Motor de Grafos BGP Dijkstra:** Algoritmo que recalcula en tiempo real las rutas más cortas, la secuencia de saltos y el incremento de latencia cuando un enlace se interrumpe.
 - **Despacho Multimodal de Campo:**
   - En cortes terrestres, el punto se ajusta a la geometría exacta del cable, se identifica el depósito más cercano por distancia geodésica y se traza la ruta vial del camión de reparación esquivando el área de peligro.

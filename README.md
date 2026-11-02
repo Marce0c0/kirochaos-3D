@@ -86,9 +86,17 @@ The application implements eight AWS services organized into spatial execution, 
 
 ---
 
+## Evaluation Runbook (1-Minute Quick Start)
+
+1. **Trigger Scenario 1 (Andean Seismic Event):** Click `1. Giant Kiro Andean Quake` on the left Command Deck. Giant Kiro emerges and shakes the planet, physically severing the primary Pacific fiber corridor near Arica. Observe the top HUD transition through Phases 1 to 5, dynamic BGP Dijkstra rerouting through trans-continental Atlantic paths (+126ms delta), and Amazon Location Service dispatching an emergency repair truck along highway networks avoiding the hazard polygon.
+2. **Simulate a Physical Fiber Cut:** Click anywhere on the 3D globe or click any optical cable to open the SRE Action HUD. Select `Sever Optical Fiber` to execute an exact geometric slice. The system automatically reverse-geocodes the rupture coordinates and dispatches the closest maintenance depot (or the CS-Kiro cable ship if offshore).
+3. **Trace BGP Packet Pings:** Select the `Ping` tab on the left deck. Choose any origin and destination (e.g., Cochabamba to Ashburn, VA) to calculate the lowest-latency Dijkstra path and watch live packet beacon animations.
+4. **Inspect Cloud Telemetry & Iceberg S3:** Open the right-side AWS Telemetry Console. Switch to the `Iceberg S3` tab and click `Run Athena Spatial SQL Query` to inspect serverless lakehouse queries (`ST_Intersects`) evaluated at $0.00 USD.
+5. **Cover Showcase Mode:** Press `H` (or click `Cover Mode` on the top bar) to hide all interface elements for a clean 1200x675 marketing showcase.
+
 ## Technical Features
 
-- **Procedural 3D Globe:** Built with MapLibre GL JS v6 globe projection and Three.js WebGL overlay. Incorporates AWS S3 Terrarium DEM elevation tiles for 3D terrain relief.
+- **Procedural 3D Globe:** Built with MapLibre GL JS v6 native globe projection and a Three.js WebGL mascot overlay, rendering high-resolution tactical vector topography, oceanic trenches, and continental shelves at 60 FPS.
 - **Dynamic BGP Dijkstra Engine:** Real-time graph engine that recalculates shortest paths, hop sequences, and latency deltas when links are severed.
 - **Multimodal Field Dispatch:** 
   - Terrestrial cuts snap directly to the fiber line geometry, select the closest maintenance depot by geodetic distance, and route the repair truck along highway networks around the hazard area.
