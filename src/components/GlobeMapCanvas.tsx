@@ -1359,6 +1359,9 @@ export const GlobeMapCanvas: React.FC<GlobeMapCanvasProps> = ({
     if (!mapContainerRef.current || mapRef.current) return;
 
     const darkStyle = 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json';
+    if (typeof maplibregl.setWorkerUrl === 'function') {
+      maplibregl.setWorkerUrl('/maplibre-gl-worker.mjs');
+    }
 
     const map = new maplibregl.Map({
       container: mapContainerRef.current,
@@ -1419,22 +1422,7 @@ export const GlobeMapCanvas: React.FC<GlobeMapCanvasProps> = ({
         console.warn('Globe projection error:', e);
       }
 
-      // Add 3D Terrain Relief (Terrarium DEM) ONLY on desktop/capable hardware to maintain rock-solid 60 FPS
-      if (!isLowPowerDevice) {
-        try {
-          if (!map.getSource('terrarium-dem')) {
-            map.addSource('terrarium-dem', {
-              type: 'raster-dem',
-              tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
-              encoding: 'terrarium',
-              tileSize: 256,
-            });
-            map.setTerrain({ source: 'terrarium-dem', exaggeration: 1.5 });
-          }
-        } catch (e) {
-          console.warn('3D Terrain load error:', e);
-        }
-      }
+      
 
       // Listen for rotation and pitch to drive the custom 3D Tactical NOC Gimbal Compass
       const syncOrientation = () => {

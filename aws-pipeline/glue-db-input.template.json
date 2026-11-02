@@ -3,3 +3,4 @@
   "Description": "KiroChaos 3D Spatial Lakehouse for AWS Spatial Challenge",
   "LocationUri": "s3://kirochaos-telemetry-<YOUR_AWS_ACCOUNT_ID>/iceberg-tables/"
 }
+
