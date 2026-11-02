@@ -4,6 +4,7 @@ Planetary Internet Resilience and AWS Spatial Dispatch Simulator built for the A
 
 [English](README.md) | [Versión en Español](README.es.md)
 
+Demo Video: https://drive.google.com/file/d/1znyw9G7VPtUh2wCyxAkHV7Q7ETvkiSDt/view?usp=sharing
 Production URL: [https://dmioezmtwljpo.cloudfront.net](https://dmioezmtwljpo.cloudfront.net)  
 Live Incident API: [https://u81plwceve.execute-api.us-east-2.amazonaws.com](https://u81plwceve.execute-api.us-east-2.amazonaws.com)
 
