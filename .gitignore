@@ -1,0 +1,52 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Production builds & staging
+dist
+dist-ssr
+*.local
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Operating System & Editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# AI / Internal dumps & scratch files
+Context.md
+repomix-output.xml
+scratch/
+.system_generated/
+.user_uploaded/
+response.json
+out.json
+
+# AWS deployment artifacts with specific account IDs / binaries
+aws-pipeline/lambda_pkg/
+aws-pipeline/*.zip
+aws-pipeline/cloudfront-config.json
+aws-pipeline/s3-bucket-policy.json
+aws-pipeline/lambda-permissions-policy.json
+aws-pipeline/lambda-trust-policy.json
+aws-pipeline/glue-db-input.json

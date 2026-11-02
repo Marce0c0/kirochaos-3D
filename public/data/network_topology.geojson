@@ -1,0 +1,1848 @@
+{
+  "type": "FeatureCollection",
+  "name": "KiroChaos_Global_Fiber_Topology",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "aws-us-east-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48,
+          39.04
+        ]
+      },
+      "properties": {
+        "id": "aws-us-east-1",
+        "name": "AWS us-east-1 (N. Virginia)",
+        "type": "aws_region",
+        "city": "Ashburn, VA",
+        "country": "United States",
+        "regionCode": "us-east-1",
+        "description": "Primary Global Cloud Epicenter & High-Density Datacenter Nexus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aws-sa-east-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.63,
+          -23.55
+        ]
+      },
+      "properties": {
+        "id": "aws-sa-east-1",
+        "name": "AWS sa-east-1 (São Paulo)",
+        "type": "aws_region",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "regionCode": "sa-east-1",
+        "description": "Primary South American Cloud Hub & Regional Transit Backbone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aws-us-west-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7,
+          45.84
+        ]
+      },
+      "properties": {
+        "id": "aws-us-west-2",
+        "name": "AWS us-west-2 (Oregon)",
+        "type": "aws_region",
+        "city": "Boardman, OR",
+        "country": "United States",
+        "regionCode": "us-west-2",
+        "description": "US West Coast Gateway & Transpacific Cable Hub to Asia"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aws-eu-west-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26,
+          53.35
+        ]
+      },
+      "properties": {
+        "id": "aws-eu-west-1",
+        "name": "AWS eu-west-1 (Dublin)",
+        "type": "aws_region",
+        "city": "Dublin",
+        "country": "Ireland",
+        "regionCode": "eu-west-1",
+        "description": "European Core Cloud Hub & Transatlantic Gateway"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "aws-ap-northeast-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.69,
+          35.68
+        ]
+      },
+      "properties": {
+        "id": "aws-ap-northeast-1",
+        "name": "AWS ap-northeast-1 (Tokyo)",
+        "type": "aws_region",
+        "city": "Tokyo",
+        "country": "Japan",
+        "regionCode": "ap-northeast-1",
+        "description": "Asia-Pacific Core Cloud Gateway & Trans-Pacific Interlink"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-cbba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.15,
+          -17.39
+        ]
+      },
+      "properties": {
+        "id": "node-cbba",
+        "name": "Cochabamba Andean IXP (PIT Cbba)",
+        "type": "ixp",
+        "city": "Cochabamba",
+        "country": "Bolivia",
+        "regionCode": "BO-CBB",
+        "description": "Heart of South America: Interconnecting Andean corridors to Pacific & Atlantic backbones"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-lpz",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.11,
+          -16.5
+        ]
+      },
+      "properties": {
+        "id": "node-lpz",
+        "name": "La Paz Fiber Core (PIT Bolivia)",
+        "type": "ixp",
+        "city": "La Paz",
+        "country": "Bolivia",
+        "regionCode": "BO-LPZ",
+        "description": "High-Altitude Altiplano Optical Junction to Peru & Northern Pacific routes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-arica",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.31,
+          -18.47
+        ]
+      },
+      "properties": {
+        "id": "cls-arica",
+        "name": "Arica Cable Landing Station (SACS / SAC)",
+        "type": "landing_station",
+        "city": "Arica",
+        "country": "Chile",
+        "regionCode": "CL-ARI",
+        "description": "Crucial Pacific Gateway providing sea-cable access to landlocked Bolivia & southern Peru"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-lima",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.82,
+          -12.27
+        ]
+      },
+      "properties": {
+        "id": "cls-lima",
+        "name": "Lima / Lurín Subsea Landing Station",
+        "type": "landing_station",
+        "city": "Lurín / Lima",
+        "country": "Peru",
+        "regionCode": "PE-LIM",
+        "description": "Pan-American Submarine Cable landing linking South America to North America"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-valparaiso",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.61,
+          -33.04
+        ]
+      },
+      "properties": {
+        "id": "cls-valparaiso",
+        "name": "Valparaíso Coastal Landing Station",
+        "type": "landing_station",
+        "city": "Valparaíso",
+        "country": "Chile",
+        "regionCode": "CL-VAL",
+        "description": "Southern Pacific termination feeding Trans-Andean cables to Argentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-las-toninas",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.69,
+          -36.47
+        ]
+      },
+      "properties": {
+        "id": "cls-las-toninas",
+        "name": "Las Toninas Atlantic Landing Station",
+        "type": "landing_station",
+        "city": "Las Toninas",
+        "country": "Argentina",
+        "regionCode": "AR-BUE",
+        "description": "Argentina primary Atlantic submarine landing point connecting 90% of national traffic"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-fortaleza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.52,
+          -3.73
+        ]
+      },
+      "properties": {
+        "id": "cls-fortaleza",
+        "name": "Fortaleza Atlantic Subsea Hub",
+        "type": "landing_station",
+        "city": "Fortaleza",
+        "country": "Brazil",
+        "regionCode": "BR-FOR",
+        "description": "Major international submarine cable nexus linking South America directly to US and Europe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-miami",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.19,
+          25.78
+        ]
+      },
+      "properties": {
+        "id": "cls-miami",
+        "name": "Miami NAP of the Americas",
+        "type": "landing_station",
+        "city": "Miami, FL",
+        "country": "United States",
+        "regionCode": "US-MIA",
+        "description": "Primary routing nexus interconnecting all Latin American cables to US Backbones"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-lisbon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.33,
+          38.68
+        ]
+      },
+      "properties": {
+        "id": "cls-lisbon",
+        "name": "Lisbon / Carcavelos Landing Station",
+        "type": "landing_station",
+        "city": "Carcavelos",
+        "country": "Portugal",
+        "regionCode": "PT-LIS",
+        "description": "European terminus of EllaLink ultra-low latency direct transatlantic fiber"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-dublin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.15,
+          53.34
+        ]
+      },
+      "properties": {
+        "id": "cls-dublin",
+        "name": "Dublin Bay Subsea Cable Landing Station & Marine Gateway",
+        "type": "landing_station",
+        "city": "Dublin Port",
+        "country": "Ireland",
+        "regionCode": "IE-DUB",
+        "description": "Primary Irish submarine optical gateway landing transoceanic cables into Europe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-cork",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3,
+          51.84
+        ]
+      },
+      "properties": {
+        "id": "cls-cork",
+        "name": "Cork Harbor Subsea Marine Base & Cable Station",
+        "type": "landing_station",
+        "city": "Cork Harbor",
+        "country": "Ireland",
+        "regionCode": "IE-CRK",
+        "description": "Deepwater maritime operations base and Celtic Sea subsea cable landing facility"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-oregon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.96,
+          45.2
+        ]
+      },
+      "properties": {
+        "id": "cls-oregon",
+        "name": "Pacific City Subsea Landing Station & Marine Gateway",
+        "type": "landing_station",
+        "city": "Pacific City, OR",
+        "country": "United States",
+        "regionCode": "US-OR",
+        "description": "Pacific Northwest transpacific submarine cable terminal linking AWS US-West to Asia-Pacific"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cls-virginia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.97,
+          36.85
+        ]
+      },
+      "properties": {
+        "id": "cls-virginia",
+        "name": "Virginia Beach Transatlantic Subsea Gateway",
+        "type": "landing_station",
+        "city": "Virginia Beach, VA",
+        "country": "United States",
+        "regionCode": "US-VA",
+        "description": "Major transatlantic landing hub for MAREA, Dunant, and BRUSA high-capacity subsea cables"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node-california",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.89,
+          37.33
+        ]
+      },
+      "properties": {
+        "id": "node-california",
+        "name": "Silicon Valley Cloud Interconnect",
+        "type": "ixp",
+        "city": "San Jose, CA",
+        "country": "United States",
+        "regionCode": "US-CA",
+        "description": "Primary Northern California network peering exchange and San Andreas fault monitoring nexus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-tacna",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.25,
+          -18
+        ]
+      },
+      "properties": {
+        "id": "depot-tacna",
+        "name": "Tacna-Arica Border Emergency Telecom Depot",
+        "type": "depot",
+        "city": "Tacna",
+        "country": "Peru / Chile Border",
+        "description": "Rapid-response fiber fusion splicing trucks with 4x4 rugged vehicles for the Atacama & Andean passes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-cbba",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.42,
+          -17.38
+        ]
+      },
+      "properties": {
+        "id": "depot-cbba",
+        "name": "Quillacollo / Vinto Central Telecom Depot",
+        "type": "depot",
+        "city": "Quillacollo / Vinto",
+        "country": "Bolivia",
+        "description": "Core Andean maintenance yard equipped with high-altitude optical OTDR analyzers"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-lima",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.62,
+          -12.68
+        ]
+      },
+      "properties": {
+        "id": "depot-lima",
+        "name": "Mala / Chilca Panamericana Fleet Base",
+        "type": "depot",
+        "city": "Mala / Chilca",
+        "country": "Peru",
+        "description": "Coastal and coastal-highway emergency fiber repair base"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-santiago",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12,
+          -32.88
+        ]
+      },
+      "properties": {
+        "id": "depot-santiago",
+        "name": "Quillota / Ruta 60 Rapid Depot",
+        "type": "depot",
+        "city": "Quillota",
+        "country": "Chile",
+        "description": "Heavy mountain transit repair fleet with snow-capable trucks for mountain passes"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-fortaleza",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.92,
+          -3.65
+        ]
+      },
+      "properties": {
+        "id": "depot-fortaleza",
+        "name": "Pecém / Caucaia Cable Support Hub",
+        "type": "depot",
+        "city": "Pecém / Caucaia",
+        "country": "Brazil",
+        "description": "Atlantic ocean and coastal landing station emergency fleet"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-saopaulo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.06,
+          -22.9
+        ]
+      },
+      "properties": {
+        "id": "depot-saopaulo",
+        "name": "Campinas AWS NOC Regional Fleet Base",
+        "type": "depot",
+        "city": "Campinas / SP",
+        "country": "Brazil",
+        "description": "Dedicated AWS partner rapid response center for southeastern Brazil"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-miami",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.15,
+          26.22
+        ]
+      },
+      "properties": {
+        "id": "depot-miami",
+        "name": "Fort Lauderdale / Pompano Fleet Base",
+        "type": "depot",
+        "city": "Fort Lauderdale",
+        "country": "United States",
+        "description": "Subsea beach landing and terrestrial ring repair team"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-toninas",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.18,
+          -36.31
+        ]
+      },
+      "properties": {
+        "id": "depot-toninas",
+        "name": "Dolores Ruta 2 Emergency Depot",
+        "type": "depot",
+        "city": "Dolores",
+        "country": "Argentina",
+        "description": "Atlantic coastal dunes optical fiber protection crew"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-dublin",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.78,
+          53.18
+        ]
+      },
+      "properties": {
+        "id": "depot-dublin",
+        "name": "Kildare / Newbridge M7 Telecom Depot",
+        "type": "depot",
+        "city": "Kildare / Newbridge",
+        "country": "Ireland",
+        "description": "European subsea and hyperscale datacenter emergency fiber fusion fleet"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-lisbon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.89,
+          38.52
+        ]
+      },
+      "properties": {
+        "id": "depot-lisbon",
+        "name": "Setúbal Fleet Base",
+        "type": "depot",
+        "city": "Setúbal",
+        "country": "Portugal",
+        "description": "EllaLink and Atlantic rim coastal landing station repair base"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-virginia",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.12,
+          38.8
+        ]
+      },
+      "properties": {
+        "id": "depot-virginia",
+        "name": "Alexandria / I-95 AWS Fiber Fleet Base",
+        "type": "depot",
+        "city": "Alexandria",
+        "country": "United States",
+        "description": "Northern Virginia Datacenter Alley optical emergency response crew"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-oregon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.12,
+          46.21
+        ]
+      },
+      "properties": {
+        "id": "depot-oregon",
+        "name": "Kennewick / Tri-Cities Optical Fleet Base",
+        "type": "depot",
+        "city": "Kennewick / Tri-Cities",
+        "country": "United States",
+        "description": "Pacific Northwest terrestrial and Trans-Pacific landing maintenance depot"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-tokyo",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.25,
+          35.42
+        ]
+      },
+      "properties": {
+        "id": "depot-tokyo",
+        "name": "Kanagawa / Hadano Rapid Fleet Base",
+        "type": "depot",
+        "city": "Kanagawa / Hadano",
+        "country": "Japan",
+        "description": "Asia-Pacific Trans-Pacific subsea terminal and Tokyo ring rapid repair unit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "depot-california",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.95,
+          37.4
+        ]
+      },
+      "properties": {
+        "id": "depot-california",
+        "name": "San Jose / Bay Area AWS Fleet Depot",
+        "type": "depot",
+        "city": "San Jose, CA",
+        "country": "United States",
+        "description": "Silicon Valley and California State Route rapid-response fiber maintenance base"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-cbba-lpz",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.15,
+            -17.39
+          ],
+          [
+            -66.5,
+            -17.55
+          ],
+          [
+            -67.1,
+            -17.96
+          ],
+          [
+            -67.55,
+            -17.6
+          ],
+          [
+            -68.05,
+            -16.9
+          ],
+          [
+            -68.11,
+            -16.5
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-cbba-lpz",
+        "name": "Andean Central Optical Backbone (Cbba - La Paz)",
+        "type": "terrestrial",
+        "source": "node-cbba",
+        "target": "node-lpz",
+        "capacity_tbps": 48,
+        "latency_base_ms": 4.8,
+        "status": "healthy",
+        "corridor": "Andean Core (Bolivia)",
+        "seismic_zone": "Altiplano Fault Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-cbba-arica",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.15,
+            -17.39
+          ],
+          [
+            -67.12,
+            -17.98
+          ],
+          [
+            -68.2,
+            -18.25
+          ],
+          [
+            -69.05,
+            -18.28
+          ],
+          [
+            -69.65,
+            -18.42
+          ],
+          [
+            -70.31,
+            -18.47
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-cbba-arica",
+        "name": "Trans-Andean Pacific Link (Cbba - Oruro - Tambo Quemado - Arica)",
+        "type": "terrestrial",
+        "source": "node-cbba",
+        "target": "cls-arica",
+        "capacity_tbps": 40,
+        "latency_base_ms": 14.5,
+        "status": "healthy",
+        "corridor": "Andean-Pacific Corridor (Bolivia - Chile)",
+        "seismic_zone": "Nazca-South American Subduction Megathrust"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-lpz-lima",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.11,
+            -16.5
+          ],
+          [
+            -69.04,
+            -16.56
+          ],
+          [
+            -70.02,
+            -15.84
+          ],
+          [
+            -71.53,
+            -16.4
+          ],
+          [
+            -73.5,
+            -15.8
+          ],
+          [
+            -75.73,
+            -14.07
+          ],
+          [
+            -76.82,
+            -12.27
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-lpz-lima",
+        "name": "High Altiplano - Peru Optical Route (La Paz - Desaguadero - Puno - Lima)",
+        "type": "terrestrial",
+        "source": "node-lpz",
+        "target": "cls-lima",
+        "capacity_tbps": 32,
+        "latency_base_ms": 18.2,
+        "status": "healthy",
+        "corridor": "Bolivia - Peru Interconnect",
+        "seismic_zone": "Peruvian Forearc Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-cbba-santacruz-brazil",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.15,
+            -17.39
+          ],
+          [
+            -63.18,
+            -17.78
+          ],
+          [
+            -59.6,
+            -18.5
+          ],
+          [
+            -57.65,
+            -19
+          ],
+          [
+            -54.62,
+            -20.44
+          ],
+          [
+            -50.5,
+            -21.8
+          ],
+          [
+            -47.06,
+            -22.9
+          ],
+          [
+            -46.63,
+            -23.55
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-cbba-santacruz-brazil",
+        "name": "Trans-Continental Atlantic Corridor (Cbba - Santa Cruz - Corumbá - São Paulo)",
+        "type": "terrestrial",
+        "source": "node-cbba",
+        "target": "aws-sa-east-1",
+        "capacity_tbps": 36,
+        "latency_base_ms": 24,
+        "status": "healthy",
+        "corridor": "Bioceanic Rail & Fiber Corridor (Atlantic East)",
+        "seismic_zone": "Stable Intraplate Basin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-cbba-argentina",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -66.15,
+            -17.39
+          ],
+          [
+            -64.3,
+            -19
+          ],
+          [
+            -63.68,
+            -22.02
+          ],
+          [
+            -65.41,
+            -24.78
+          ],
+          [
+            -65.22,
+            -26.82
+          ],
+          [
+            -64.18,
+            -31.42
+          ],
+          [
+            -60.64,
+            -32.95
+          ],
+          [
+            -58.38,
+            -34.6
+          ],
+          [
+            -56.69,
+            -36.47
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-cbba-argentina",
+        "name": "Southern Cone Terrestrial Trunk (Cbba - Yacuiba - Salta - Buenos Aires - Las Toninas)",
+        "type": "terrestrial",
+        "source": "node-cbba",
+        "target": "cls-las-toninas",
+        "capacity_tbps": 28,
+        "latency_base_ms": 31,
+        "status": "healthy",
+        "corridor": "Andean-Pampas Interconnect (Bolivia - Argentina)",
+        "seismic_zone": "Northwest Argentina Precordillera"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-pacific-arica-valparaiso",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.31,
+            -18.47
+          ],
+          [
+            -71.1,
+            -20.2
+          ],
+          [
+            -71.3,
+            -23.65
+          ],
+          [
+            -72,
+            -27.5
+          ],
+          [
+            -72.2,
+            -30
+          ],
+          [
+            -71.61,
+            -33.04
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-pacific-arica-valparaiso",
+        "name": "South American Crossing West - SACS (Arica - Antofagasta - Valparaíso)",
+        "type": "submarine",
+        "source": "cls-arica",
+        "target": "cls-valparaiso",
+        "capacity_tbps": 72,
+        "latency_base_ms": 16,
+        "status": "healthy",
+        "corridor": "Pacific Coastal Trench Submarine",
+        "seismic_zone": "Chile Megathrust Subduction"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-pacific-arica-lima",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -70.31,
+            -18.47
+          ],
+          [
+            -71.5,
+            -17.65
+          ],
+          [
+            -74,
+            -15.5
+          ],
+          [
+            -76.5,
+            -13.5
+          ],
+          [
+            -76.82,
+            -12.27
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-pacific-arica-lima",
+        "name": "Pan-American Submarine (Arica - Mollendo - Lima)",
+        "type": "submarine",
+        "source": "cls-arica",
+        "target": "cls-lima",
+        "capacity_tbps": 80,
+        "latency_base_ms": 11.2,
+        "status": "healthy",
+        "corridor": "Central Pacific Coastal Trench",
+        "seismic_zone": "Peru-Chile Trench Fault"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-pacific-lima-miami",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -76.82,
+            -12.27
+          ],
+          [
+            -79.5,
+            -7
+          ],
+          [
+            -81.2,
+            -1
+          ],
+          [
+            -80.5,
+            4
+          ],
+          [
+            -79.6,
+            8.9
+          ],
+          [
+            -78.5,
+            15
+          ],
+          [
+            -80.19,
+            25.78
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-pacific-lima-miami",
+        "name": "Pacific-Caribbean Pan-Am Trunk (Lima - Manta - Panama - Miami)",
+        "type": "submarine",
+        "source": "cls-lima",
+        "target": "cls-miami",
+        "capacity_tbps": 96,
+        "latency_base_ms": 42,
+        "status": "healthy",
+        "corridor": "Pan-American West Backbone",
+        "seismic_zone": "Cocos-Nazca Plate Boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-valparaiso-toninas",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.61,
+            -33.04
+          ],
+          [
+            -70.67,
+            -33.45
+          ],
+          [
+            -69.8,
+            -32.85
+          ],
+          [
+            -68.84,
+            -32.89
+          ],
+          [
+            -64.18,
+            -31.42
+          ],
+          [
+            -58.38,
+            -34.6
+          ],
+          [
+            -56.69,
+            -36.47
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-valparaiso-toninas",
+        "name": "Trans-Andean Mountain Crossing (Valparaíso - Santiago - Mendoza - Las Toninas)",
+        "type": "terrestrial",
+        "source": "cls-valparaiso",
+        "target": "cls-las-toninas",
+        "capacity_tbps": 40,
+        "latency_base_ms": 15,
+        "status": "healthy",
+        "corridor": "Southern Cone Trans-Andean Pass",
+        "seismic_zone": "Andean High Orogeny Fault"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-toninas-saopaulo",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -56.69,
+            -36.47
+          ],
+          [
+            -52,
+            -34
+          ],
+          [
+            -48.5,
+            -28
+          ],
+          [
+            -46.3,
+            -24
+          ],
+          [
+            -46.63,
+            -23.55
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-toninas-saopaulo",
+        "name": "Malbec / Bicentenario Submarine Link (Las Toninas - Santos - São Paulo)",
+        "type": "submarine",
+        "source": "cls-las-toninas",
+        "target": "aws-sa-east-1",
+        "capacity_tbps": 108,
+        "latency_base_ms": 19.5,
+        "status": "healthy",
+        "corridor": "South Atlantic Coastal Submarine",
+        "seismic_zone": "Stable Atlantic Continental Margin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-saopaulo-fortaleza",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -46.63,
+            -23.55
+          ],
+          [
+            -43.17,
+            -22.9
+          ],
+          [
+            -39.8,
+            -19.5
+          ],
+          [
+            -38.1,
+            -13
+          ],
+          [
+            -34.6,
+            -7.8
+          ],
+          [
+            -34.8,
+            -5.1
+          ],
+          [
+            -36.8,
+            -3.5
+          ],
+          [
+            -38.52,
+            -3.73
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-saopaulo-fortaleza",
+        "name": "Monet / Junior Coastal Subsea Trunk (São Paulo - Rio - Salvador - Fortaleza)",
+        "type": "submarine",
+        "source": "aws-sa-east-1",
+        "target": "cls-fortaleza",
+        "capacity_tbps": 120,
+        "latency_base_ms": 25,
+        "status": "healthy",
+        "corridor": "Brazilian Coastal Marine Corridor",
+        "seismic_zone": "Atlantic Continental Shelf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-fortaleza-miami",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.52,
+            -3.73
+          ],
+          [
+            -45,
+            2
+          ],
+          [
+            -55,
+            10
+          ],
+          [
+            -66,
+            18.5
+          ],
+          [
+            -73,
+            22
+          ],
+          [
+            -80.19,
+            25.78
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-fortaleza-miami",
+        "name": "Seabras-1 / Monet North Submarine (Fortaleza - San Juan - Miami)",
+        "type": "submarine",
+        "source": "cls-fortaleza",
+        "target": "cls-miami",
+        "capacity_tbps": 140,
+        "latency_base_ms": 54,
+        "status": "healthy",
+        "corridor": "Atlantic-Caribbean Submarine Gateway",
+        "seismic_zone": "Puerto Rico Trench Subduction Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-fortaleza-lisbon",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -38.52,
+            -3.73
+          ],
+          [
+            -30,
+            5
+          ],
+          [
+            -23.5,
+            15
+          ],
+          [
+            -17,
+            28
+          ],
+          [
+            -12,
+            34
+          ],
+          [
+            -9.33,
+            38.68
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-fortaleza-lisbon",
+        "name": "EllaLink Transatlantic Ultra-Low Latency (Fortaleza - Praia - Lisbon)",
+        "type": "submarine",
+        "source": "cls-fortaleza",
+        "target": "cls-lisbon",
+        "capacity_tbps": 100,
+        "latency_base_ms": 59,
+        "status": "healthy",
+        "corridor": "South Atlantic - Europe Direct Oceanic Link",
+        "seismic_zone": "Mid-Atlantic Ridge Crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-miami-useast1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -80.19,
+            25.78
+          ],
+          [
+            -81.65,
+            30.33
+          ],
+          [
+            -84.38,
+            33.74
+          ],
+          [
+            -80.84,
+            35.22
+          ],
+          [
+            -78.63,
+            35.77
+          ],
+          [
+            -77.48,
+            39.04
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-miami-useast1",
+        "name": "US East Coast AWS Terrestrial Fiber Ring (Miami - Atlanta - Ashburn)",
+        "type": "terrestrial",
+        "source": "cls-miami",
+        "target": "aws-us-east-1",
+        "capacity_tbps": 160,
+        "latency_base_ms": 14.8,
+        "status": "healthy",
+        "corridor": "US Eastern Megalopolis Backbone",
+        "seismic_zone": "Stable Craton"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-useast1-uswest2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.48,
+            39.04
+          ],
+          [
+            -83,
+            39.96
+          ],
+          [
+            -87.62,
+            41.87
+          ],
+          [
+            -93.26,
+            44.97
+          ],
+          [
+            -104.99,
+            39.73
+          ],
+          [
+            -111.89,
+            40.76
+          ],
+          [
+            -119.7,
+            45.84
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-useast1-uswest2",
+        "name": "AWS Inter-Region Dedicated Backbone (us-east-1 <-> us-west-2)",
+        "type": "terrestrial",
+        "source": "aws-us-east-1",
+        "target": "aws-us-west-2",
+        "capacity_tbps": 200,
+        "latency_base_ms": 51.5,
+        "status": "healthy",
+        "corridor": "AWS US Transcontinental Fiber Grid",
+        "seismic_zone": "Basin and Range Province"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-virginia-metro",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.48,
+            39.04
+          ],
+          [
+            -77.43,
+            37.54
+          ],
+          [
+            -75.97,
+            36.85
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-virginia-metro",
+        "name": "Northern Virginia - Virginia Beach Interconnect (Ashburn <-> Virginia Beach)",
+        "type": "terrestrial",
+        "source": "aws-us-east-1",
+        "target": "cls-virginia",
+        "capacity_tbps": 240,
+        "latency_base_ms": 2.6,
+        "status": "healthy",
+        "corridor": "Mid-Atlantic Hyperscale Optical Link",
+        "seismic_zone": "Atlantic Coastal Plain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-useast1-euwest1",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -75.97,
+            36.85
+          ],
+          [
+            -73.5,
+            40.5
+          ],
+          [
+            -62,
+            42.5
+          ],
+          [
+            -45,
+            47
+          ],
+          [
+            -25,
+            50.5
+          ],
+          [
+            -11.5,
+            51.2
+          ],
+          [
+            -7.2,
+            51.35
+          ],
+          [
+            -5.8,
+            52.15
+          ],
+          [
+            -5.55,
+            52.85
+          ],
+          [
+            -5.55,
+            53.32
+          ],
+          [
+            -6.15,
+            53.34
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-useast1-euwest1",
+        "name": "Apollo / Dunant Transatlantic Submarine (Virginia Beach - Dublin)",
+        "type": "submarine",
+        "source": "cls-virginia",
+        "target": "cls-dublin",
+        "capacity_tbps": 250,
+        "latency_base_ms": 64,
+        "status": "healthy",
+        "corridor": "North Atlantic Super-Highway Submarine",
+        "seismic_zone": "North Atlantic Oceanic Abyssal"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-euwest1-lisbon",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.15,
+            53.34
+          ],
+          [
+            -6.12,
+            52.95
+          ],
+          [
+            -6.35,
+            52.25
+          ],
+          [
+            -7.5,
+            51.4
+          ],
+          [
+            -8.3,
+            51.84
+          ],
+          [
+            -8.5,
+            49.5
+          ],
+          [
+            -9.8,
+            43.8
+          ],
+          [
+            -10.2,
+            41.2
+          ],
+          [
+            -10,
+            39.2
+          ],
+          [
+            -9.33,
+            38.68
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-euwest1-lisbon",
+        "name": "Celtic-Iberian Coastal Fiber (Dublin - Bilbao - Lisbon)",
+        "type": "submarine",
+        "source": "cls-dublin",
+        "target": "cls-lisbon",
+        "capacity_tbps": 110,
+        "latency_base_ms": 18,
+        "status": "healthy",
+        "corridor": "Western European Coastal Subsea",
+        "seismic_zone": "Iberian Plate Boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-dublin-metro",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -6.15,
+            53.34
+          ],
+          [
+            -6.26,
+            53.35
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-dublin-metro",
+        "name": "Dublin Metro Optical Ring (CLS Dublin Bay <-> AWS eu-west-1)",
+        "type": "terrestrial",
+        "source": "cls-dublin",
+        "target": "aws-eu-west-1",
+        "capacity_tbps": 200,
+        "latency_base_ms": 0.8,
+        "status": "healthy",
+        "corridor": "Dublin High-Density Cloud Interconnect",
+        "seismic_zone": "Stable Intraplate Basin"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-oregon-terrestrial",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.7,
+            45.84
+          ],
+          [
+            -121.18,
+            45.6
+          ],
+          [
+            -122.67,
+            45.52
+          ],
+          [
+            -123.96,
+            45.2
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-oregon-terrestrial",
+        "name": "Columbia Basin - Pacific Gateway Link (Boardman <-> Pacific City)",
+        "type": "terrestrial",
+        "source": "aws-us-west-2",
+        "target": "cls-oregon",
+        "capacity_tbps": 200,
+        "latency_base_ms": 2.2,
+        "status": "healthy",
+        "corridor": "Pacific Northwest Cloud Corridor",
+        "seismic_zone": "Cascadia Forearc Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-california-terrestrial",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.96,
+            45.2
+          ],
+          [
+            -123,
+            44.05
+          ],
+          [
+            -122.87,
+            42.33
+          ],
+          [
+            -122.39,
+            40.58
+          ],
+          [
+            -121.49,
+            38.58
+          ],
+          [
+            -121.89,
+            37.33
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-california-terrestrial",
+        "name": "Pacific Coast Terrestrial Fiber (Pacific City <-> Silicon Valley)",
+        "type": "terrestrial",
+        "source": "cls-oregon",
+        "target": "node-california",
+        "capacity_tbps": 160,
+        "latency_base_ms": 8.5,
+        "status": "healthy",
+        "corridor": "West Coast Coastal Terrestrial Backbone",
+        "seismic_zone": "San Andreas Fault Zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cable-uswest2-tokyo",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.96,
+            45.2
+          ],
+          [
+            -125.5,
+            46.2
+          ],
+          [
+            -145,
+            49.5
+          ],
+          [
+            -165,
+            51.2
+          ],
+          [
+            -180,
+            50
+          ],
+          [
+            -198,
+            44.5
+          ],
+          [
+            -215,
+            38
+          ],
+          [
+            -220.31,
+            35.68
+          ]
+        ]
+      },
+      "properties": {
+        "id": "cable-uswest2-tokyo",
+        "name": "FASTER / PC-1 Transpacific Submarine (Pacific City - Tokyo)",
+        "type": "submarine",
+        "source": "cls-oregon",
+        "target": "aws-ap-northeast-1",
+        "capacity_tbps": 180,
+        "latency_base_ms": 82,
+        "status": "healthy",
+        "corridor": "Transpacific Deep Sea Trunk",
+        "seismic_zone": "Japan Trench & Pacific Ring of Fire"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fault-nazca-subduction",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -77.5,
+            -5
+          ],
+          [
+            -78.5,
+            -9
+          ],
+          [
+            -77,
+            -13
+          ],
+          [
+            -72,
+            -17.5
+          ],
+          [
+            -71,
+            -21
+          ],
+          [
+            -71.5,
+            -27
+          ],
+          [
+            -72.5,
+            -34
+          ],
+          [
+            -74.5,
+            -42
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fault-nazca-subduction",
+        "name": "Peru-Chile Trench (Nazca Subduction Megathrust)",
+        "type": "fault_line"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fault-andean-cordillera",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -68.5,
+            -14
+          ],
+          [
+            -67.8,
+            -16.5
+          ],
+          [
+            -65.5,
+            -18.5
+          ],
+          [
+            -64.5,
+            -22
+          ],
+          [
+            -65,
+            -26
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fault-andean-cordillera",
+        "name": "Eastern Andean Thrust Fault System",
+        "type": "fault_line"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fault-san-andreas",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -125,
+            49
+          ],
+          [
+            -124.5,
+            43
+          ],
+          [
+            -123,
+            38
+          ],
+          [
+            -120.5,
+            35
+          ],
+          [
+            -117,
+            33
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fault-san-andreas",
+        "name": "San Andreas & Cascadia Subduction Zone",
+        "type": "fault_line"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fault-mid-atlantic",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -20,
+            65
+          ],
+          [
+            -28,
+            45
+          ],
+          [
+            -42,
+            25
+          ],
+          [
+            -38,
+            10
+          ],
+          [
+            -25,
+            -5
+          ],
+          [
+            -14,
+            -20
+          ],
+          [
+            -14,
+            -40
+          ]
+        ]
+      },
+      "properties": {
+        "id": "fault-mid-atlantic",
+        "name": "Mid-Atlantic Oceanic Spreading Ridge",
+        "type": "fault_line"
+      }
+    }
+  ]
+}

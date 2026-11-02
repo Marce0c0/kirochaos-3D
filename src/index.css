@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #070A13;
+  }
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.7);
+}
+
+/* MapLibre Canvas full fill */
+.maplibregl-map {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.maplibregl-canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none !important;
+}
+
+/* Hide MapLibre default controls if any */
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-bottom-left {
+  display: none !important;
+}
+
+/* MapLibre Dark Sleek Popups */
+.kiro-noc-popup {
+  max-width: 95vw !important;
+  z-index: 40 !important;
+}
+
+.kiro-noc-popup .maplibregl-popup-content {
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  max-height: calc(100vh - 130px) !important;
+  overflow: visible !important;
+}
+
+.kiro-noc-popup .maplibregl-popup-tip {
+  border-top-color: #0f172a !important;
+  border-bottom-color: #0f172a !important;
+}
+
+.kiro-noc-popup .maplibregl-popup-close-button {
+  color: #94a3b8 !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  width: 24px !important;
+  height: 24px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  padding: 0 !important;
+  right: 10px !important;
+  top: 10px !important;
+  border-radius: 8px !important;
+  background: rgba(15, 23, 42, 0.95) !important;
+  border: 1px solid rgba(71, 85, 105, 0.8) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  z-index: 50 !important;
+  transition: all 0.15s ease !important;
+}
+
+.kiro-noc-popup .maplibregl-popup-close-button:hover {
+  background: rgba(239, 68, 68, 0.45) !important;
+  border-color: rgba(239, 68, 68, 0.9) !important;
+  color: #ffffff !important;
+}
+
+/* AWS Servers & Badges Falling Chaos Keyframes */
+@keyframes serverFall {
+  0% {
+    transform: translateY(-80px) rotate(0deg) scale(0.8);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(115vh) rotate(360deg) scale(1.1);
+    opacity: 0;
+  }
+}
+
+/* NOC Target Beacon Ripple Waves */
+@keyframes radarRipple {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.95;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-radar-wave-1 {
+  animation: radarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.animate-radar-wave-2 {
+  animation: radarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) 0.65s infinite;
+}
+
+.animate-radar-wave-3 {
+  animation: radarRipple 2s cubic-bezier(0, 0.2, 0.8, 1) 1.3s infinite;
+}
+
+/* Flaming Server Animation Keyframes */
+@keyframes flameFlicker {
+  0%, 100% {
+    transform: scaleY(1) scaleX(1) skewX(0deg);
+    filter: drop-shadow(0 0 12px rgba(249, 115, 22, 0.85));
+  }
+  25% {
+    transform: scaleY(1.1) scaleX(0.95) skewX(-2.5deg);
+    filter: drop-shadow(0 0 18px rgba(239, 68, 68, 0.95));
+  }
+  50% {
+    transform: scaleY(0.92) scaleX(1.05) skewX(2deg);
+    filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.75));
+  }
+  75% {
+    transform: scaleY(1.15) scaleX(0.92) skewX(-1.5deg);
+    filter: drop-shadow(0 0 20px rgba(249, 115, 22, 1));
+  }
+}
+
+@keyframes flameInnerFlicker {
+  0%, 100% {
+    transform: scaleY(1) skewX(1deg);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scaleY(1.18) skewX(-2deg);
+    opacity: 1;
+  }
+}
+
+@keyframes emberRise {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0.95;
+  }
+  50% {
+    transform: translateY(-16px) translateX(4px) scale(0.7);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-34px) translateX(-3px) scale(0.2);
+    opacity: 0;
+  }
+}
+
+.animate-flame-main {
+  transform-origin: bottom center;
+  animation: flameFlicker 1.4s ease-in-out infinite;
+}
+
+.animate-flame-inner {
+  transform-origin: bottom center;
+  animation: flameInnerFlicker 0.9s ease-in-out infinite alternate;
+}
+
+.animate-ember-1 {
+  animation: emberRise 1.6s ease-out infinite;
+}
+
+.animate-ember-2 {
+  animation: emberRise 2.1s ease-out 0.5s infinite;
+}
+
+.animate-ember-3 {
+  animation: emberRise 1.8s ease-out 0.9s infinite;
+}
+
+
+
