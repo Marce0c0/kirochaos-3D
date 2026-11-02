@@ -4,8 +4,11 @@ Simulador de Resiliencia de Internet Planetario y Despacho Espacial en AWS desar
 
 [English](README.md) | [Versión en Español](README.es.md)
 
-URL de Producción: [https://dmioezmtwljpo.cloudfront.net](https://dmioezmtwljpo.cloudfront.net)  
-API de Incidentes en Vivo: [https://u81plwceve.execute-api.us-east-2.amazonaws.com](https://u81plwceve.execute-api.us-east-2.amazonaws.com)
+| Recurso | Punto de Enlace / Link |
+| :--- | :--- |
+| **Aplicación Web en Producción** | [https://dmioezmtwljpo.cloudfront.net](https://dmioezmtwljpo.cloudfront.net) |
+| **Video de Demostración** | [Ver en Google Drive](https://drive.google.com/file/d/1znyw9G7VPtUh2wCyxAkHV7Q7ETvkiSDt/view?usp=sharing) |
+| **API de Incidentes en Vivo (HTTP API Gateway)** | [https://u81plwceve.execute-api.us-east-2.amazonaws.com](https://u81plwceve.execute-api.us-east-2.amazonaws.com) |
 
 ---
 
